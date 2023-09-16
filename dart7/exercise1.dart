@@ -7,5 +7,12 @@ void main() {
 
   int total = evenNumbers.reduce((num, num1) => num + num1);
   print(total);
-
+  int length = evenNumbers.length;
+  print(length);
+  int t = evenNumbers[0] +
+      evenNumbers[1] +
+      evenNumbers[2] +
+      evenNumbers[3] +
+      evenNumbers[4];
+  print("total = " + t.toString());
 }
